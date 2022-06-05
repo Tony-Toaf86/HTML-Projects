@@ -1,0 +1,24 @@
+notas html
+
+div.main_page {
+    position: relative;
+    display: table;
+
+    width: 1200px;
+
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 0px;
+
+    border-width: 5px;
+    border-color: hsl(249, 90%, 46%);
+    border-style: solid;
+
+    background-color: hsl(0, 14%, 95%);
+
+    text-align: center;
+  }
+
+
+

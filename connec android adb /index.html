@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conectar android a linux via adb remoto</title>
+
+
+    <style>
+        body{
+            margin: 0px;
+
+        }   
+        .title{
+
+            text-align: center;
+        }
+        .title-secons{
+            margin-left:20px ;
+        }
+
+        .articles{
+            margin-left: 14px;
+        }
+
+        img{
+            width:60%;
+            height: 60%;
+        }
+        .android{
+            margin-top: 14px;
+            width:30%;
+            height: 600px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <h1 class="title">conectar android a Linux via Adb remoto</h1>
+
+    <article class="articles">
+        <p>a continuacion se te ensegnara como conectar tu movil 
+            android a tu computadora escritorio o lapto con linux
+         via  <b>adb remoto</b></p>
+
+    </article>
+
+    <article class="articles">
+        <p>
+            Cabe aclarar que para logra una coneccion exitosa no importa la distrubucion de linux que estes utilizando
+            siempre y cuando sea linux el proceso se llevara a cabo con exito.
+        </p>
+    </article>
+
+    <h2 class="title-secons">pasos a seguir</h2>
+
+    <section>
+        <ul>
+         
+            <li> Tener una distribucion de <b>Linux instalada en tu maquuina.</b> </li><br>
+            <li>Que tu maquina linux este conectada a una red wifi. </li> <br>
+            <li> el dispostivo android este conectado a  una red wifi</li><br>
+        </ul>
+    </section>
+
+    <article class="articles"> 
+        <h2 class="title-secons">Notas</h2>
+        <p>Para poder anclar tu android a tu ordenador primeramente debes de tener algunas consideraciones.</p>
+        <ol>
+            <li>Que el dispostivo android a conectar tiene que estar <b> conectado a la misma red que este conectado el ordenador.</b></li>
+        </ol>
+    </article>
+
+    <section>
+        <article class="articles">
+            <h2 class="title-secons">Pasos a Seguir</h2>
+
+            <p>Abre una terminal en tu computadora.</li></p> <br>
+            <p></p>ejecuta el siguiente comando para instalar adb <b>sudo apt-get install adb</b></li></p>
+            <div>
+                <img  class=" images" src="images/installadb.png" alt="instal adb en linux">
+            </div>
+
+            <p>una ves instaldo el programa <b>adb.</b></p> <br>
+            <p>ejecuta el siguiente comando adb tcpip : 43232</p>
+            <div>
+                <img   class=" images" src="images/installadb.png" alt="comando tcpip">
+            </div>
+            <p>cabe mencionar que los numros despues de <b>tcpip</b> son el puerto al cual se conectar nuestro dispositivo
+            por eso una ves despues de establecidos es recomentable que los anotes en algun lugar por que pronto seran
+            utilizandos. <br>
+            Tambien no es sumamente necesaio que establescas como puerto el numero <b>42232</b> tu elijes el puerto que quieras
+            utlizar en mi caso utlizare ese, pero como ya mencione puedes usar el que tu gustes o prefieras.</p><br>
+
+        </article>
+        <h2 class="title-secons "></h2> Posteriormente activaremso <b>el depurador usb</b> de nuestro dispositivo corriendo
+        corriendo con android.</h2> <br>
+
+        <div >
+            <img class="android" src="images/primera.jpg" alt="ajustes">
+
+        </div>
+
+        <article>
+    
+        </article>
+    </section>
+
+
+
+
+    
+</body>
+</html>

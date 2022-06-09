@@ -5,13 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>conectar android a linux via adb remoto</title>
-
-
     <style>
         body{
             margin: 0px;
-            font-family: Open Sans,sans-serif;
-        }   
+            font-family: Open Sans,sans-serif;    
+        }  
         .cabezera{
             text-align:center;
             margin-left: 05px;
@@ -23,192 +21,246 @@
             border: 4px solid   rgb(0, 0, 0) ;
             color: rgb(216, 203, 27);    
         }
-
         .img-head{
             
             margin-left: 10px;
             margin-right: 10px;
             margin-bottom: 40px;
             display: inline;
-            height: 500px;
+            height: 70%;
             width: 75%;
-            border:  solid rgb(158, 156, 17);
-            
+            border:  solid rgb(158, 156, 17);      
         }
        .title-principal{
-        margin-left: 10px;
+           margin-top: 100px;
+        margin-bottom: 100px;
         font-size: 40px;
-        line-height:05px ;
-        margin-top: 70px;
-        color: rgb(12, 71, 10);
-        
+        text-align: center;     
+        color: rgb(16, 99, 95);    
        }
+       .horizontal-line{
+            width: 95%;
+           border: 1px solid red;
+           margin-bottom: 50px;         
+       }     
        .articles1{
-        margin-left: 30px;
-      
-        
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 40px;
+        line-height:30px;  
        }
        .articles2{
-        margin-left: 0px;
-        padding-right:5px;
+        width: 88;
+        margin-left: 05%;
+        margin-right: 05%;
         padding-top:25px;
-        padding-left: 25px;
+        padding-left: 20px;
         line-height: 30px;
-        border: 4px solid rgb(206, 203, 38);
-        background-color: rgb(98, 233, 193);
-        color: rgb(223, 14, 14);
-           
+        border: 2px solid rgb(206, 203, 38);
+        background-color: rgb(102, 204, 182);
+        color: rgba(27, 18, 31, 0.795);     
        }
-
        .title-secons{
-           margin-left: 40px;
+           margin-left: 05px;
            margin-top: 20px;
-           margin-bottom : 30px;
+           margin-bottom : 20px;
            color: rgb(9, 64, 136);
-
        }
        .ul-1{
         margin-left: 80px;
         margin-bottom:30px;
        }
        .ul-2{
-        margin-left: 40px;
-        margin-bottom: 30px;
-        margin-bottom:30px;
+        margin-left: 10px;
+        margin-bottom: 0px;
        }
        .important{
-        margin-left: 40px;
+        margin-left: 05px;
         color: red;
         margin-top:15px ;
-       }
-       
+       }  
        .images{
-            margin-left: 10px;
-            margin-left: 10px;
+           align-items: center;
+            margin-left: 05%;
             margin-bottom: 40px;
             display: inline;
             height: 700px;
             width: 90%;
             border:  solid rgb(10, 122, 150);
-
        }
        .img-android{
-             margin-left: 10px;
-            margin-left: 10px;
+            margin-left: 15%;
             margin-bottom: 40px;
             display: inline;
-            height: 600px;
-            width: 30%;
+            height: 700px;
+            width: 50%;
             border:  solid rgb(10, 122, 150);
-
        }
+       #red{
+           color: red;
+       }
+       .footer{
+           
+           height: 110px;
+           border: 4px solid rgb(124, 22, 22);
+           margin-left: 10px;
+           margin-bottom: 0px;
+            background-color:rgb(0, 0, 0);
+            padding-inline-end: 20px;   
+       }
+       .text-footer{
+           color: white;
+           margin-top:10px; 
+           position: none; 
+       }
+       .foter-desing{
+            border: solid white;
+            text-align: center;
+            height: 10% ;
+            padding-top: 10px;
+            margin-left: 40%;
+            margin-right: 40%;
+        }
     </style>
 </head>
 <body>
-    <section class="main-top">
-        <div>
-            <h1 class="logo" Toaf-Blogs</h1>
-        </div>
-
-        <h1 class="cabezera">TOAF BLOG</h1>
-        <h2 class="title-principal">conectar android a Linux via Adb remoto</h2>
-
-
-        <div >
-            <img class="img-head" src="images/head.jpg" alt="imagen de la cabeza">
-        </div>
-    </section>
-
-    <section class="articles-1">
-
-    
-        <article class="articles1">
-            <p>A continuacion se te ensegnara como conectar tu movil 
-                android a tu computadora escritorio o lapto con linux
-            via  <b>adb remoto.</b>
-            </p>
-
-        </article>
-
-        <article class="articles1">
-            <p>
-                Cabe aclarar que para logra una coneccion exitosa no importa la distrubucion de linux que estes utilizando
-                siempre y cuando sea linux el proceso se llevara a cabo con exito.
-            </p>
-        </article>
-
-        <h2 class="title-secons">pasos a seguir</h2>
-
+    <section class="main">
+        <section>
+            <div>
+                <h1 class="logo" Toaf-Blogs</h1>
+            </div>
+            <hr class="horizontal-line">
+            <h2 class="title-principal">conectar android a Linux via Adb remoto</h2>
+            <hr class="horizontal-line">
+        <!--
+            <div >
+                <img class="img-head" src="images/head.jpg" alt="imagen de la cabeza">
+            </div>
+        </section>
+         --> 
+        <section>
+            <article class="articles1">
+                <p>A continuacion se te enseñara como conectar tu movil 
+                    android a tu computadora ya sea de  escritorio o lapto con sistema operativo linux, via
+                <b>adb remoto.</b>
+                </p>
+            </article>
+            <article class="articles1">
+                <p>
+                      Cabe mencionar que para logra una coneccion exitosa no importa la distrubucion
+                      de linux que estes utilizando siempre y cuando sea linux el proceso se llevara
+                       a cabo con exito.
+                </p>
+                <h2 class="title-secons" ></h2>
+            </article>
+        </section>
         <section class="ul-1">
             <ul>
-            
                 <li> Tener una distribucion de <b>Linux instalada en tu maquuina.</b> </li><br>
-            <li>Que tu maquina linux este conectada a una red wifi. </li> <br>
-            <li> el dispostivo android este conectado a  una red wifi</li><br>
-        </ul>
+                <li>Que tu maquina linux este conectada a una red wifi. </li> <br>
+                <li> Que el dispostivo android que vallas a utilizar este conectado a  una red wifi.</li><br>
+            </ul>
         </section>
-
-        
-            <h2 class="important">IMPORTANTE......</h2>
             <article class="articles1"> 
-                <p>Para poder anclar tu android a tu ordenador primeramente debes de tener algunas consideraciones.</p>
+                <h2 class="important">IMPORTANTE......</h2>
+                <p>Para poder conectar tu android a tu ordenador se deben tener algunas consideraciones.</p>
                 <ul class="ul-2">
-                    <li>Que el dispostivo android a conectar tiene que estar <b> conectado a la misma red que este conectado el ordenador.</b></li>
+                    <li>Que el dspostivo android a conectar tiene que estar <b>conectado a la misma red que este 
+                        conectadsel ordenador en el que realizaras dicho proceso.</b>
+                    </li>
                  </ul>
             </article>
         </section>
-
-    <section>
-
-
-        <section class="articles1">
-            <h2 class="title-secons">Pasos a Seguir</h2>
-
-            <p>Abre una terminal en tu computadora.</li></p> <br>
-
-            <p></p>ejecuta el siguiente comando para instalar adb <b>sudo apt-get install adb</b></li></p>
-
+       <ection>
+            <article class="artises1">
+                <h2 class="title-secons">Pasos a Seguir</h2>
+                <p>Abre una terminal en tu computadora.</li></p>
+                <p></p>-Ejecuta el siguiente comando para instalar adb <b>sudo apt-get install adb.</b></li></p>
+            </article>
             <div>
                 <img  class="images" src="images/installadb.png" alt="instal adb en linux">
             </div>
-
-            <p>una ves instaldo el programa <b>adb.</b></p> <br>
-
-            <p>ejecuta el siguiente comando adb tcpip : 43232</p>
-
+            <article class="articles1">
+                <p><b>-</b> Una ves instalado el programa <b>adb</b> en nuestro ordenador, abre una terminal y ejecuta el siguiente
+                    comando <strong>adb tcpip : <b id="red">43232</b>. </strong> <br>
+                </p>
+            </article>
             <div>
-                <img   class="images" src="images/installadb.png" alt="comando tcpip">
+                <img   class="images" src="images/tcpip.png" alt="comando tcpip">
             </div>
             <article class="articles2">
-                <p><b> cabe mencionar que los numros despues de <b>tcpip</b> son el puerto al cual se conectar nuestro dispositivo
+                <p><b>Cabe mencionar que los numeros despues de <b>tcpip</b> son el puerto al cual se conectar nuestro dispositivo
                     por eso una ves despues de establecidos es recomentable que los anotes en algun lugar por que pronto seran
                     utilizandos. <br>
                     Tambien no es sumamente necesaio que establescas como puerto el numero <b>42232</b> tu elijes el puerto que quieras
-                    utlizar en mi caso utlizare ese, pero como ya mencione puedes usar el que tu gustes o prefieras.</p><br></b>
+                    utlizar en mi caso utlizare ese, pero como ya mencione, puedes usar el que tu gustes o prefieras.</p><br></b>
             </article> 
-
         </section>
-
-        
-        <section class="section-android">
-            <article>
-                <p>Posteriormente activaremso <b>el depurador usb</b> de nuestro dispositivo corriendo
-                corriendo con android</p>
+        <section>
+            <article class="articles1">
+                <p>
+                    Como siguiente paso en nuestro movil nos dirigiremos en nuestro android a <b>ajustes/acerca-del-dispositivo/estado-del-dispositivo </b> una una vez
+                    ahi buscaremos la opsion <b>IP Address o direccion IP</b> donde anotaremos la <strong>direccion ip</strong>
+                    de nuestro dispositivo en mi caso la ip es <b>192.168.0.15</b>.
+                </p>
             </article>
-
-            <div >
-                <img class="img-android" src="images/primera.jpg" alt="ajustes">
+            <div>
+                <img class="img-android" src="images/android-img-1.jpg" alt="imagen de android">
             </div>
         </section>
-
-        
-
-    
+        <section>
+            <article class="articles1">
+                <p>Posteriormente activaremos <b>el depurador usb</b> de nuestro dispositivo 
+                    <strong>android</strong>, si no sabes como activar el depurador <b>usb</b>
+                    puedes visitar el siguiente enlace, para que aprendas como activarlo, <a href="">activar depurador
+                    usb en android.</a>
+                 </p>
+                 <p>
+                     Despues de ejecutar el siguiente  comando <strong>adb connect (nuemero-proxy:puerto).</strong><br>
+                    Donde el <b>proxy</b> es el numero que nos ha proporcionado nuestro router, y el <b>puerto</b> es el numero 
+                    que hemos asignado nosotros con el comando anterior <b>adb tcpid:puerto</b>.
+                    Un ejemplo como nos quedaria en una terminal seria el siguiente <b>adb connect 192.168.1.1:43232</b> y 
+                    preciona enter.
+                </p>
+            </article>
+            <div>
+                <img class="images" src="images/tercera.png" alt="">
+            </div>
+        </section>
+        <section >
+            <article class="articles1">
+                <p>
+                    Si hemos seguido correctamente los pasos anteriores nuestro dispositivo deberia de aberse conectado a nuestro
+                    ordenador con exito, para comprobarlo podemos ejecutar comandos como <b>adb devices</b> y si linux nos arroja el
+                    siguiente comando todo a salido bien.
+                </p>
+            </article>
+            <div>
+                <img class="images" src="images/tercera.png" alt="imagen de coneccion">
+            </div>
+        </section>
+        <section>
+            <article class="articles1">
+                <p>
+                    Llegados a este punto podemos ejecutar comandos de <b>adb</b> para poder realizar acciones en forma remotas, 
+                    ya sean estas enviar archivos del telefono a la pc o viseversa.
+                </p>
+                <p>
+                    Si te interesera aprender a utilizar la funciones basicas de adb  puedes visitar el siguiente enlace 
+                    <a href="fnnfdnfkd">Funciones basicas de adb</a>, donde se te ensegnara a como mover archivos del telefono 
+                    al pc o tambien de la pc al telefono de forma rapida y sencilla.
+                </p>
+            </article>
+        </section>
     </section>
-
-
-
-
-    
+ <footer class="footer">
+    <article  class="text-footer">
+        <div class="foter-desing">
+            <b>El Blog Del Aprediz</b>    
+            <br>
+            <b>Tony Alonzo</b> 
+        </div>
+    </article>
+</footer>  
 </body>
 </html>

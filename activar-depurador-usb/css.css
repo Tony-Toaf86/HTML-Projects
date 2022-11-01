@@ -1,0 +1,47 @@
+.main{
+	margin-left:5%;
+	margin-bottom:5%;
+	margin-top: 5%;
+  background:whitesmoke;
+
+}
+
+
+.title-principal{
+  margin-bottom: 50px;
+  font-size: 43px;
+  text-align: center;     
+  color: rgb(20, 30, 50);    
+}
+
+.articles{
+  width: 90%;
+  font-size: 20px;
+  margin-left: 3%;
+ margin-top: 40px;
+  line-height:35px;
+}
+
+.titulos  {
+  margin-top: 80px;
+  margin-bottom:30px;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.titulos-left {
+  margin-top: 80px;
+  margin-left:3%;
+  margin-bottom:3px;
+  font-size: 30px;
+  text-align: left;
+
+}
+.li{
+  margin-top:3px ;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+

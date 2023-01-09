@@ -1,0 +1,33 @@
+body{
+  background:#whitesmokes;
+}
+.firt{
+  margin-top:08%;
+  margin-left: 13%;
+}
+.principal-title{
+  color: blue;
+  font-size:45px;
+  margin-bottom:2px;
+
+}
+
+.secons-title{
+  color: red; 
+  margin-bottom:2px;
+  font-size:25px;
+}
+
+.parrafo{
+
+}
+
+.form{
+  display:inline-table;
+  border-radius:10p x;
+  width: 400px;
+  height: 400px;
+  background:red;
+  margin-left:600px;
+  margin-top:;
+}

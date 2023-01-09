@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Facebook.com</title>
+  <link rel="stylesheet" href="">
+
+  <style>
+    body{
+
+      background:whitesmoke;
+    }
+    .formulario{  /* panel de entrys e inicio de secion*/
+      position: absolute;
+      width:30%;
+      left: 56%;
+      top: 20%;
+      height:55%; 
+      border-radius:10px;
+      background:white;
+     
+    }
+
+    .entrys{
+      color:blue;
+      width:90%;
+      height:12%;
+      margin-left: 4%;
+      margin-top:5%;
+      border-radius:4px;
+      font-size:18px;
+    }
+
+    .boton{ /* boton de inicion de secion*/
+      width:92%;
+      background:#0076d4 ;
+      height:14%;
+      margin-left: 4%;
+      margin-top:5%;
+      border-radius:4px;
+      color: white;
+      font-size:30px;
+
+    }
+    .letter{  /* panel de letras*/
+      position: absolute;
+      width:30%;
+      left: 13%;
+      top: 10%;
+      height:55%; 
+      border-radius:10px;
+      background:whitesmoke;
+    }
+    .title-face{
+      margin-left:10px;
+      margin-bottom:65px;
+      font-size:50px;  
+      color: #0076d4 ;
+      height:2px; 
+       }
+
+    .inicio-secion{
+      margin-left:10px;
+      margin-bottom:40px;
+      color: black;
+      font-size:32px;  
+      height:2px;
+
+    }
+
+    .final-text{
+      margin-left:10px;
+      color: black;
+      font-size:18px;
+    }
+    .add-user{ /* add user cuadro*/
+      position: absolute;
+      border-radius:7px;
+      width:12%;
+      height:30%;
+      left:18%;
+      top:45%;
+      background:white;
+
+    }
+
+    .addcuentafinal{ /* agregar cuenta letras del panel adduser*/
+      color: #0076d4  ;
+      margin-top:95%;
+      text-align: center;
+      font-size:20px;
+
+    }
+
+    img{
+      position: absolute;
+      width:45px;
+      height:45px;
+      top:30%;
+      left:38%;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <div class="titles"></div> <!-- cuadro de texto -->
+  <div class="formulario">
+    <input type="text" placeholder="coreo electronico o numero de telefono" class="entrys">
+    <input type="text" placeholder="contrasena" class="entrys">
+    <button class="boton">Iniciar Sesion</button>
+  </div>
+
+  <div class="letter">  <!-- inicios de secion resientes -->
+    <div >
+      <p class="title-face"><b>facebook</b></p>
+      <p class="inicio-secion">Inicios de sesión recientes</p>
+      <p class="final-text">Haz clic en tu foto o agrega una cuenta.</p>
+    </div>
+  </div>
+
+  <div class="add-user">  <!-- cuadro de add user -->
+    <div class="addcuentafinal">
+      <img src="img/mas.png">
+      <p ><b>Agregar cuenta</b></p>
+    </div>
+    
+ 
+  </div>
+  
+</body>
+</html>

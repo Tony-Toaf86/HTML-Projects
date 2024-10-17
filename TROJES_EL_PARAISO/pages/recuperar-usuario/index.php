@@ -17,9 +17,9 @@
           <input class="input" type="text" placeholder="Correo electronico" />
           <span class="c2">Introduce el correo eletronico del usurio a recuperar</span>
           <div class="button-container">
-            <a href="" class="send-button">Recuperar</a>
+            <a href="../../includes/recuperarusuario.php" class="send-button">Recuperar</a>
             <div class="reset-button-container">
-              <a href="../../index.html" class="reset-btn">Iniciar Sesion</a>
+              <a href="../login/" class="reset-btn">Iniciar Sesion</a>
             </div>
           </div>
         </div>

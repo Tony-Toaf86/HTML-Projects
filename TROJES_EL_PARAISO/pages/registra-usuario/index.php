@@ -36,8 +36,12 @@
         <input class="input" type="password" placeholder="" required="">
         <span>Confirmar Conraseña</span>
     </label>
-    <button class="submit">Registrar Usuario</button>
-    <p class="signin">Ya tienes cuenta ? <a href="../../index.html">Iniciar</a> </p>
+    <div class="submit">
+        <a href="../../includes/registrausuario.php" class="">Registrar Usuario</a>
+    </div>
+    <!-- pendietne de reparar el texto centrado -->
+    
+    <p class="signin">Ya tienes cuenta ? <a href="../login/">Iniciar</a> </p>
 </form>
 
 </body>

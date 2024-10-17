@@ -118,6 +118,10 @@
   .input {
     font-size: medium;
   }
+ 
+  a{
+    text-decoration:none;
+  }
   
   .submit {
     border: none;
@@ -128,7 +132,10 @@
     font-size: 16px;
     transform: .3s ease;
     background-color: #00bfff;
+    text-align: center;
+    margin-top: 30px;
   }
+  
   
   .submit:hover {
     background-color: #00bfff96;

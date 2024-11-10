@@ -10,7 +10,7 @@
     <!-- pagina de usuario que inicio Sesion -->
     <p>secion iniciada inciada usuario comun</p>
 
-    <?php include "../servicios/" ;?>
+    
     
     <a href=""></a>
     <a href=""></a>

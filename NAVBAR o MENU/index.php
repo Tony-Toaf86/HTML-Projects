@@ -21,19 +21,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
     <li class="nav-item">
-    <a class="nav-link" href="#">Enlace</a>
+    <a class="nav-link" href="pages/servicios/">Servicios</a>
     </li>
     <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Desplegable
+    Opsiones
     </a>
     <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Acción</a></li>
-    <li><a class="dropdown-item" href="#">Otra acción</a></li>
+    <li><a class="dropdown-item" href="pages/login/">Registrarse</a></li>
+    <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
     <li>
     <hr class="dropdown-divider">
     </li>
-    <li><a class="dropdown-item" href="#">Algo más aquí.</a></li>
+    <li><a class="dropdown-item" href="#">Pendiente.</a></li>
     </ul>
     </li>
   
@@ -50,7 +50,7 @@
           <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Contacto</a></li>
+            <li><a class="dropdown-item" href="#">Contactanos</a></li>
             </ul>
         </li>
       </ul>

@@ -15,8 +15,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     try {
+        // Verificar si el usuario ya existe (por correo electrónico, por ejemplo)
         $consulta_verificar = $base->prepare("SELECT COUNT(*) FROM usuarios WHERE correo = ?");
-        $consulta_verificar->bindParam(1, $correo); 
+        $consulta_verificar->bindParam(1, $correo); // Aquí el índice debe ser 1, no 4
         $consulta_verificar->execute();
         $resultado = $consulta_verificar->fetchColumn();
 
@@ -36,11 +37,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     } catch (PDOException $e) {
         echo "Error al agregar usuario: " . $e->getMessage();
+        // Registrar el error en un log para análisis posterior
         error_log("Error al insertar usuario: " . $e->getMessage());
     }
 } 
 
 else {
+    // Esto solo se ejecutará si el formulario no se envió
     echo "No se envió el formulario.";
     exit();
 }

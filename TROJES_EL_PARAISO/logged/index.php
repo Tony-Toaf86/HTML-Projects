@@ -19,13 +19,11 @@
 <body>
    
     <header>
-      <?php require 'pages/header/index.php'; ?>
+    <?php require 'pages/header/index.php'; ?>
         
         <h1 class="text-center fw-bold p-3">Trojes, El Paraiso, Hoduras</h1>
         <hr class="bg-primary m-3  w-90">
     </header>
-
-    <!-- inicio primer titulo  -->
     <div class="container">
         <div class="row ">
             <div class="col-md-6">

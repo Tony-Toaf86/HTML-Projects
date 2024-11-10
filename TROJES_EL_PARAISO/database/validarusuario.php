@@ -22,13 +22,11 @@ if (isset($_SESSION['id_usuario'])) {
 
             if ($rol == 1) {
                 //usuario administrador
-                // header("Location: ../admin/admin.php");
-                header("Location: ../pages/paginausuario/");  
+                header("Location: ../logged/index.php");  
 
             }elseif ($rol == 2) {
                 //usuario comun
-                header("Location: ../pages/paginausuario/");  
-
+                header("Location: ../logged/index.php");  
             }
         } else {
             echo "No se encontró información para el usuario con ID: $id_usuario";

@@ -1,9 +1,12 @@
 <?php
+
+// escribe una función  del usuario
+
 try {
     $base = new PDO("mysql:host=localhost; dbname=trojes", "root", "");
     $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    $sql = "SELECT id_usuario, correo, contrasena, id_rol FROM usuarios WHERE correo = :login AND contrasena = :password";
+    $sql = "SELECT id_usuario, correo, contrasena, id_rol FROM usuarios WHERE correo = :login AND contrasena = :password"; 
 
     $resultado = $base->prepare($sql);
 

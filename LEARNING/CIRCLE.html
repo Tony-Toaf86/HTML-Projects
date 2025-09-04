@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Círculo mejorado</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f4;
+    }
+
+    .circle {
+      /* background: linear-gradient(135deg, tomato, rgb(64, 255, 0)); */
+      background: linear-gradient( tomato, rgb(14, 143, 172));
+      width: 200px;
+      height: 200px;
+      border-radius: 50%; /* círculo perfecto */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: bold;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    /* agrega animacion con el mouse  */
+    .circle:hover {
+      transform: scale(1.2); 
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="circle">Hola</div>
+</body>
+</html>
